@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <center>
+    <h1>Formularios</h1><hr>
+</center>
+<form action="index.php" method="POST">
+  <table border width="100%">
+    <tr>
+      <td><label>Soy una etiqueta</label></td>
+      <td><label>Etiqueta</label></td>
+      </tr>
+      <tr>
+      <td><label>Campo de Texto</label></td>
+      <td><input type="text" placeholder="Introduce nombre" required maxlength="5" name="Nombre" class="campo" value="Juan Perez"></td>
+      </tr>
+      <tr>
+      <td><label>Campo de Texto</label></td>
+            <td><input type="password" placeholder="Introduce nombre" required maxlength="5" name="Nombre" class="campo" value="Juan Perez"></td>
+      
+      </tr>
+      <tr>
+        <td><label>Campo de Texto</label></td>
+        <td><input type="radio"name="Sexo"><br>
+          <input type="radio"name="Sexo"></br>
+            <input type="radio"name="Sexo"></td></br>
+            <tr>
+              <td><label>Campo de Texto</label></td>
+            <td><input type="checkbox" checked><br>
+            </tr>
+             <tr>
+              <td><label>Campo Oculto</label></td>
+              <td>
+            <input type="hidden" value="10">
+              </td>
+      </tr>
+       <tr>
+        <td><label>Submit</label></td>
+<td>
+    <input type="submit" value="Enviar">
+    </td>
+      </tr>
+        <tr>
+          <td><label>Boton Imagen</label></td>
+       <td>   <input type="image" src="Bunbury.jpg">
+          </td>
+        </tr>
+        <tr>
+      <td><label>Boton Reset</label></td>
+       <td>  
+       <input type="reset" value="Borrar">
+          </td>
+        </tr
+       <tr>
+      <td><label>Campo de Busqueda</label></td>
+       <td>  
+       <input type="search">
+          </td>
+        </tr>
+     <tr>
+      <td><label>Area de Texto</label></td>
+       <td>  
+       <textarea cols="10" rows="10">Hello</textarea>
+          </td>
+        </tr>   
+     <tr>
+      <td><label>Combo Box</label></td>
+       <td>  
+       <select name="Nombre">
+         <option value="C">Canaan</option>
+         <option value="L">Loreta</option>
+         <option value="J">Jose</option>
+       </select>
+          </td>
+        </tr>       
+     <tr>
+      <td><label>Data List</label></td>
+       <td>  
+       <input type="text" list="cuidades">
+    <datalist id="ciudades">
+         <option value="Tepito">
+         <option value="Tlanepantla">
+         <option value="Texcoco">
+       </datalist>   </td>
+      </tr>
+  </table>
+</form>
+</body>
+
+</html>
